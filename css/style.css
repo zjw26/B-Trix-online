@@ -1,0 +1,104 @@
+
+body{
+	height: 100%;
+	background-image: url('http://pic1.win4000.com/wallpaper/e/51e762ff38095.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.game{
+	width:20%;
+	height:80%;
+	background: #f2faff;
+	border-left:1px solid blue;
+	border-right:1px solid blue;
+	border-bottom:1px solid blue;
+	position: absolute;
+}
+
+.next{
+	width:8%;
+	height:8%;
+	background:#f2faff;
+	position: absolute;
+	border: 1px solid blue; 
+}
+
+.info{
+    position: absolute;
+    color: rgba(232, 196, 89, 0.88);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.none,.current,.done{
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.none{
+	background: #f2faff;
+    border: 1px solid rgba(236, 45, 45, 0.2);
+}
+
+.current{
+	background: rgb(234, 209, 29);
+	border:1px solid red;
+}
+
+.done{
+	background: gray;
+	border:1px solid black;
+}
+
+.btn1{
+	position: absolute;
+}
+
+#btn2{
+	position: absolute;
+}
+
+.gameover{
+	display: none;
+	position: absolute;
+    top: 10rem;
+    left: 6rem;
+    border: 35px solid rgba(103, 65, 10, 0.77);
+    padding: 3rem;
+    box-shadow: 0px 0px 100px #041704;
+    border-radius: 20px;
+    background: rgb(218, 134, 35);
+}
+
+.gameover h1{
+	color: #fff;
+    text-shadow: 1px 1px rgba(19, 169, 55, 0.8), 2px 2px rgba(80, 118, 154, 0.8), 3px 3px rgba(248, 239, 197, 0.8), 4px 4px rgba(248, 227, 197, 0.8), 5px 5px rgba(42, 44, 45, 0.8), 6px 6px rgba(197, 223, 248,0.8);
+}
+
+.gameover h2{
+  color: #fff;
+  text-shadow: 1px 1px 0 #f96,-1px -1px 0 #f96; 
+  margin-bottom: 3rem;
+}
+
+.explain{
+	position: absolute;
+    width: 19rem;
+    height: 18rem;
+    color: rgb(255, 120, 0);
+    border: 6px solid rgba(255, 126, 0, 0.61);
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 2.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 5rem rgba(187, 0, 255, 0.91);
+    background: rgba(1, 6, 14, 0.71);
+}
+
+.title>h2{
+	color: rgba(255, 131, 0, 0.94);
+	font-weight: bold;
+	padding-left: 1%
+}
